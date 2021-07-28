@@ -10,7 +10,6 @@
 <script>
 import axios from 'axios';
 
-import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import _ from 'lodash';
 import AppointmentList from "./components/appointmentList";
 import AddAppointment from './components/addAppointment';
@@ -25,7 +24,6 @@ export default {
     };
   },
   components: {
-    FontAwesomeIcon,
     AppointmentList,
     AddAppointment
   },
